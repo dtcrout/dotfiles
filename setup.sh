@@ -1,3 +1,7 @@
 #!/usr/bin/env bash
 
-sudo apt-get install acpi compton dmenu feh fonts-font-awesome i3lock lxappearance pavucontrol sysstat thunar 
+# Dependencies
+sudo apt-get install compton feh i3 i3blocks lxappearance pavucontrol xbacklight
+
+# Other applications
+sudo apt-get install git thunar vim
